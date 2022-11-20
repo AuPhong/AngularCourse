@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    <app-cockpit></app-cockpit>
+    <app-cockpit (serverData)="onServerAdded($event)" (blueprintData)="onBlueprintAdded($event)"></app-cockpit>
   </div>
   <hr>
   <div class="row">
